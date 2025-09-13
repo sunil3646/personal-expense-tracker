@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://personal-expense-tracker-b4ix.onrender.com/';
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);

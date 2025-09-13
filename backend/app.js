@@ -8,7 +8,12 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://personal-expenss-tracker.netlify.app/", // replace with your Netlify URL
+  optionsSuccessStatus: 200
+}));
+
+
 app.use(express.json());
 
 // Root route
