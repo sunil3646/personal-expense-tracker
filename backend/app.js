@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: "https://personal-expenss-tracker.netlify.app/", // replace with your Netlify URL
+  origin: "https://personal-expenss-tracker.netlify.app", // replace with your Netlify URL
   optionsSuccessStatus: 200
 }));
 
